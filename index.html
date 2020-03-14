@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Index page</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-default animated fadeInUpBig wow">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand fadeInRightBig wow" href="index.html">eLibrary</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right  animated fadeInUpBig wow">
+				<li class="active hvr-underline-from-left"><a href="index.html" class="active">Home</a></li>
+				<li class="hvr-underline-from-left"><a href="#">Admin</a></li>
+				<li class="hvr-underline-from-left"><a href="#">Student</a></li>
+				<li class="hvr-underline-from-left"><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<section id=body>
+	<div class="container">
+
+		<p class="text-center">
+		<h1 class="text-center  animated zoomIn wow">Online Library</h1>
+		</p>
+
+		<div class="row">
+           <div class="col-sm-5 col-sm-offset-1" >
+            	<h3 class="animated fadeInRightBig wow">Admin Login</h3>
+  			<form action="AdminLogin" method="post" style="width:300px">
+ 				<div class="form-group animated fadeInUpBig wow">
+    				<label for="email1">Email address</label>
+    					<input type="email" class="form-control" name="email" id="email1" placeholder="Email"/>
+  				</div>
+  				
+  				<div class="form-group animated fadeInDownBig wow">
+  					<label for="password1">Password</label>
+    					<input type="password" class="form-control" name="password" id="password1" placeholder="Password"/>
+  				</div>
+  				<button type="submit" class="btn btn-primary fadeInLeftBig wow">Login</button>
+			</form>
+		   </div>
+			<div class="col-sm-5 col-sm-offset-1" >
+				<h3 class="animated fadeInLeftBig wow">Librarian Login</h3>
+  				<form action="Student Login" method="post" style="width:300px">
+  					<div class="form-group animated fadeInUpBig wow">
+   						<label for="email1">Email address</label>
+						<input type="email" class="form-control" id="email1" name="email" placeholder="Email"/>
+  					</div>
+  					
+  					<div class="form-group animated fadeInDownBig wow">
+    					<label for="password1">Password</label>
+						<input type="password" class="form-control" id="password1" name="password" placeholder="Password"/>
+					</div>
+					<button type="submit" class="btn btn-primary fadeInRightBig wow">Login</button>
+				</form>     
+                    
+            </div>
+		</div>
+	</div>        
+</section>
+
+
+<section id="icon">
+				<ul class="list-inline text-center animated fadeInDownBig wow">
+					<li><a href="https://mbasic.facebook.com/IfthekarHossainSajal?refid=12"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="https://mbasic.facebook.com/aslam.cse.ctg?ref_component=mbasic_home_header&ref_page=%2Fwap%2Fhome.php&refid=7"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+			<div class="text-center animated fadeInDownBig wow">
+				<p>&copy;2017 PUC, Premier University, Chittagong</p>
+				<p> Leveraging Information & Communication Technology (LICT)</p>
+			</div>
+
+</section>
+
+
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+
+
+<!--WOW CSS-->
+<script>
+    new WOW().init();
+</script>
+
+<script>
+    $('.carousel').carousel({
+        interval: 1000
+    })
+
+</script>
+
+
+</body>
+</html>

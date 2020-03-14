@@ -1,0 +1,109 @@
+@CHARSET "ISO-8859-1";
+@import url(normalize.css);
+
+@import "customhover.css";
+@import "animate.css";
+@import "hover.css";
+
+.carousel-inner, img{
+	background-size: cover;
+	height: 300px;
+	display: block;
+	border-radius: 0;
+}
+
+
+.navbar-default .navbar-brand {
+	padding-left: 50px;
+	font-size: 25px;
+	color: whitesmoke;
+}
+.navbar-default .navbar-nav>li>a {
+	font-size: 1.2em;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: whitesmoke;
+	background-color: white;
+}
+
+.navbar {
+	background-color: gainsboro;
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 0px;
+	border:0;
+}
+
+.container>.navbar-collapse, .container>.navbar-header {
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#body{
+
+	background-image: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.0)),url("../images/library1.jpg");
+
+	background-size: cover;
+	height: 450px;
+	display: block;
+	border-radius: 0;
+	color: honeydew;
+
+}
+
+#icon{
+	background-color: #424242;
+}
+#icon li{
+	padding:50px 10px 10px ;
+	font-size: 25px;
+
+}
+#icon .fa{
+	color:  #86878b ;
+
+}
+#icon p{
+	color: #a09a88;
+	padding-bottom: 20px;
+}
+
+
+
+
+.navbar-nav > li{
+	border-right: 1px solid #ffffff;
+	padding: 5px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.navbar-nav > li > a{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.navbar-nav > li > a:hover{
+	color: rgba(224, 194, 136, 0.89);
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background: transparent;
+}
+.navbar-nav > li > a:hover{
+	background: transparent;
+}
+.navbar-nav > li:hover{
+	background: #85979D;
+}
+.navbar{
+	margin-bottom: 0;
+	border: none;
+}
+.mainnav{
+	background: #90A1A7;
+}
+
+
+.radious{
+	border-radius: 50%;
+}
